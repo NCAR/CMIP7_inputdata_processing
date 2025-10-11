@@ -26,6 +26,16 @@
 #               repository branches.
 # 
 #
+[submodule "anthropogenic-emissions_biomass-burning"]
+path = code/anthropogenic-emissions_biomass-burning
+# We should move ownership of this repo to NCAR or ESCOMP at some point
+url = https://github.com/bgaubertNCAR/cmip7_input4MIPs_processing
+# We should create a tag in the repo at some point
+fxtag = 93e0c8fa1a9d302aa83f04582f6ac132511ccd9e
+fxrequired = ToplevelRequired
+# Standard Fork to compare to with "git fleximod test" to ensure personal forks aren't committed
+fxDONOTUSEurl =  https://github.com/bgaubertNCAR/cmip7_input4MIPs_processing
+
 [submodule "landuse_datatools"]
 path = code/land-use/LandUseDataPrepTools
 url = https://github.com/ESCOMP/CTSM-LUH-LandUseDataPrepTools
