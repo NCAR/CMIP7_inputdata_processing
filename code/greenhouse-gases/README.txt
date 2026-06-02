@@ -2,6 +2,8 @@ Generate CMIP7 Lower Boundary Conditions (LBC)
 
 This repository contains a Python routine to generate lower boundary condition (LBC) files for CMIP7 simulations (e.g., CESM/WACCM). It reads greenhouse gas concentrations from the official input4MIPs CMIP7 forcing dataset, interpolates them to the model latitude grid, converts to mol/mol, and writes a consolidated NetCDF file ready for use in CMIP7 runs.
 
+UPDATE by slevis 2026/6/1: I have also included a matlab script for getting the co2 file to work as a datm stream when running CLM6 I-cases. Additional information at the top of the matlab script.
+
 ---
 
 Overview
